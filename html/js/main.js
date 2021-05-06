@@ -77,3 +77,8 @@ $('.contries-slide').owlCarousel({
         }
     }
 });
+
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
